@@ -10,3 +10,4 @@ const useSchema=new mongoose.Schema({
 })
 const User=mongoose.model('User',useSchema)
 module.exports=User
+
