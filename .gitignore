@@ -1,11 +1,2 @@
 /node_modules
 /gitignore
-
-echo "# mvc" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-
-git branch -M main
-git remote add origin https://github.com/Dpkhawk/mvc.git
-git push -u origin main
