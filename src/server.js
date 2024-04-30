@@ -1,7 +1,0 @@
-const express=require('express')
-const mongose=require('mongoose')
-const route = require('./routes/routes')
-const app=express()
-mongose.connect('mongodb://localhost:27017/newDb')
-app.use('/',route)
-app.listen(3000)
